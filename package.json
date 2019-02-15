@@ -1,0 +1,21 @@
+{
+  "name": "ui5-mockserver-puppeteer",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@openui5/sap.ui.core": "^1.62.1",
+    "@ui5/project": "^1.0.0",
+    "@ui5/server": "^1.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "puppeteer": "^1.12.2"
+  },
+  "config": {
+    "port": 3000
+  },
+  "scripts": {
+    "start" : "node index.js"
+  }
+}
