@@ -4,7 +4,7 @@ sap.ui.define([
 	'use strict';
 
 	let oMockServer = new MockServer({
-		rootUri: window.ROOT_URI // will be injected by puppeteer
+		rootUri: window.__ROOT_URI // will be injected by puppeteer
 	});
 
 	let sMetadataString = sap.ui.require.toUrl("localService/metadata.xml");

@@ -9,7 +9,7 @@ const ui5Router = require('./lib/ui5-router');
 
 // config
 const PORT = parseInt(process.env.npm_package_config_port);
-const ROOT_URI = "/sap/opu/odata/sap/MEETUP_SRV/";
+const ROOT_URI = '/sap/opu/odata/sap/MEETUP_SRV/';
 
 // create new app
 let app = express();
