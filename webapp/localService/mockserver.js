@@ -7,8 +7,8 @@ sap.ui.define([
 		rootUri: window.__ROOT_URI // will be injected by puppeteer
 	});
 
-	let sMetadataString = sap.ui.require.toUrl("localService/metadata.xml");
-	var sMockdataBaseUrl = sap.ui.require.toUrl("localService/mockdata");
+	let sMetadataString = sap.ui.require.toUrl('localService/metadata.xml');
+	var sMockdataBaseUrl = sap.ui.require.toUrl('localService/mockdata');
 	oMockServer.simulate(sMetadataString, {
 		sMockdataBaseUrl: sMockdataBaseUrl
 	});
